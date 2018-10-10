@@ -3,7 +3,7 @@ import {Text,View,ImageBackground,Image,StyleSheet,TouchableHighlight,Button,Tou
 import ActionButton from 'react-native-action-button';
 import{withNavigation} from 'react-navigation'
 import Icon from 'react-native-elements';
- const ion =(<Icon name="message" type="material-icons" color='white'/>)
+
 class Status extends Component {
     static navigationOptions={
         tabBarLabel:'STATUS'
